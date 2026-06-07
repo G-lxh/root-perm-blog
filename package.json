@@ -1,0 +1,20 @@
+{
+  "name": "root-perm-blog",
+  "version": "1.0.0",
+  "description": "Root_perm's Tech Blog - A static website for cybersecurity knowledge base",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist"
+  },
+  "dependencies": {
+    "@vuepress/plugin-active-header-links": "^2.0.0-rc.14",
+    "@vuepress/plugin-back-to-top": "^2.0.0-rc.14",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.14",
+    "@vuepress/plugin-search": "^2.0.0-rc.14",
+    "vuepress": "^2.0.0-rc.14"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

@@ -1,0 +1,24 @@
+# VuePress
+docs/.vuepress/.temp
+docs/.vuepress/.cache
+docs/.vuepress/dist
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
