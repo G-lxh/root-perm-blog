@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/root-perm-blog/',
   title: "Root_perm的技术博客",
   description: "网络安全学习笔记与技术分享",
   head: [
